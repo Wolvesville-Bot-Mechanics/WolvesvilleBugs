@@ -1,0 +1,31 @@
+name: Bug Report - Android/iOS
+description: Wolvesville for Android and iOS - Bug Report
+labels: ["Mobile"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Description
+      description: Compare what's supposed to happen to what's happening. When does this happen. As precise as possible. You can use [markdown](https://learnxinyminutes.com/docs/markdown/)
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Report author
+      placeholder: DiscordID e.g. 364096171997921280
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+      placeholder: e.g. 1.9.7
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: e.g. Sony XZ1
+  - type: input
+    id: os
+    attributes:
+      label: OS version
+      placeholder: e.g. Android 9
